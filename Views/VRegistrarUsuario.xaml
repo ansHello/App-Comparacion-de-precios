@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ComparacionPrecios.Views.VRegistrarUsuario"
+             Title="Crear Cuenta"
+             BackgroundColor="#F5F5F5">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+        <Label Text="Regístrate"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#2B2B2B"
+                   HorizontalOptions="Center" />
+
+        <Entry x:Name="txtCedula" Placeholder="Cédula / ID" 
+               Keyboard="Numeric" TextColor="Black"
+               PlaceholderColor="Gray"/>
+        <Entry x:Name="txtNombre" Placeholder="Nombre" 
+               TextColor="Black" PlaceholderColor="Gray"/>
+        <Entry x:Name="txtApellido" Placeholder="Apellido" 
+               TextColor="Black" PlaceholderColor="Gray"/>
+        <Entry x:Name="txtEmail" Placeholder="Correo Electrónico" 
+               Keyboard="Email" TextColor="Black" PlaceholderColor="Gray"/>
+        <Entry x:Name="txtPassword" Placeholder="Contraseña" 
+               IsPassword="True" TextColor="Black" PlaceholderColor="Gray"/>
+
+
+        <Button x:Name="btnRegistrar"
+            Text="Registrar Cuenta"
+                    Clicked="btnRegistrar_Clicked"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    HeightRequest="50"
+                    Margin="0,15,0,0"/>
+
+        </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>
