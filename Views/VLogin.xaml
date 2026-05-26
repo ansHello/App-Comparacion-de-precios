@@ -3,47 +3,116 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ComparacionPrecios.Views.VLogin"
              Title="Iniciar Sesión"
-             BackgroundColor="#F5F5F5">
-    <VerticalStackLayout Spacing="20" Padding="30" VerticalOptions="Center">
-        <Label Text="Calcular Precios"
-               FontSize="32"
-               FontAttributes="Bold"
-               TextColor="#2B2B2B"
-               HorizontalOptions="Center" />
+             BackgroundColor="#2E237A">
 
-        <Label Text="Encuentra la mejor opción de compra"
-               FontSize="16"
-               TextColor="#757575"
+    <ScrollView>
+        <VerticalStackLayout Spacing="18"
+                             Padding="30"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center">
+
+            <!-- Logo/Icono -->
+            <!-- Logo/Icono -->
+            <!-- CONTENEDOR DEL LOGO -->
+            <Frame WidthRequest="140"
+               HeightRequest="140"
+               CornerRadius="35"
+               Padding="0"
+               HasShadow="True"
+               BackgroundColor="#4A3BB5"
                HorizontalOptions="Center"
-               Margin="0,0,0,20"/>
+               VerticalOptions="Center"
+               BorderColor="#5F52D9">
 
-        <Entry x:Name="txtEmail"
-               Placeholder="Correo Electrónico"
-               Keyboard="Email"
-               TextColor="Black"
-               PlaceholderColor="Gray"/>
+                <!-- Imagen -->
+                <Image Source="smartshop.png"
+                   Aspect="AspectFill"
+                   HorizontalOptions="Fill"
+                   VerticalOptions="Fill" />
 
-        <Entry x:Name="txtPassword"
-               Placeholder="Contraseña"
-               IsPassword="True"
-               TextColor="Black"
-               PlaceholderColor="Gray"/>
+            </Frame>
 
-        <Button x:Name="btnIngresar"
-            Text="Ingresar"
-                Clicked="btnIngresar_Clicked"
-                BackgroundColor="#2196F3"
-                TextColor="White"
-                CornerRadius="10"
-                FontAttributes="Bold"
-                HeightRequest="50"/>
+            <!-- Título -->
+            <Label Text="SmartShop"
+                   FontSize="38"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
 
-        <Button x:Name="btnRegistrar"
-            Text="¿No tienes cuenta? Regístrate aquí"
-                Clicked="btnRegistrar_Clicked"
-                BackgroundColor="Transparent"
-                TextColor="#2196F3"
-                FontAttributes="Italic"/>
+            <!-- Subtítulo -->
+            <Label Text="Encuentra la mejor opción de compra&#10;rápida y segura."
+                   FontSize="17"
+                   TextColor="#D6D1FF"
+                   HorizontalTextAlignment="Center"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20"/>
 
-    </VerticalStackLayout>
+            <!-- Contenedor principal -->
+            <Frame BackgroundColor="#4C3FC4"
+                   CornerRadius="25"
+                   Padding="25"
+                   HasShadow="False"
+                   WidthRequest="320">
+
+                <VerticalStackLayout Spacing="18">
+
+                    <!-- Email -->
+                    <Entry x:Name="txtEmail"
+                           Placeholder="Correo Electrónico"
+                           Keyboard="Email"
+                           TextColor="White"
+                           PlaceholderColor="#D0CFFF"
+                           BackgroundColor="#5B4FD1"
+                           HeightRequest="55"
+                           Margin="0,5"
+                           FontSize="16" />
+
+                    <!-- Password -->
+                    <Entry x:Name="txtPassword"
+                           Placeholder="Contraseña"
+                           IsPassword="True"
+                           TextColor="White"
+                           PlaceholderColor="#D0CFFF"
+                           BackgroundColor="#5B4FD1"
+                           HeightRequest="55"
+                           Margin="0,5"
+                           FontSize="16" />
+
+                    <!-- Botón ingresar -->
+                    <Button x:Name="btnIngresar"
+                            Text="Iniciar sesión"
+                            Clicked="btnIngresar_Clicked"
+                            BackgroundColor="White"
+                            TextColor="#4A3BB5"
+                            CornerRadius="18"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HeightRequest="58" />
+
+                    <!-- Botón registrar -->
+                    <Button x:Name="btnRegistrar"
+                            Text="Crear cuenta nueva"
+                            Clicked="btnRegistrar_Clicked"
+                            BackgroundColor="Transparent"
+                            BorderColor="#B8B2FF"
+                            BorderWidth="1.5"
+                            TextColor="White"
+                            CornerRadius="18"
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            HeightRequest="55"/>
+
+                    <!-- Texto inferior -->
+                    <Label Text="Al continuar aceptas nuestros&#10;Términos y Condiciones y Política de Privacidad."
+                           FontSize="12"
+                           TextColor="#D6D1FF"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,10,0,0"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
