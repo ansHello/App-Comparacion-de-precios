@@ -1,0 +1,67 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ComparacionPrecios.Views.VHome"
+             BackgroundColor="#2E237A"
+             Title="Inicio">
+
+    <VerticalStackLayout Padding="25" Spacing="20">
+
+        <!-- Título -->
+        <Label Text="SmartShop"
+               FontSize="32"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+        <Label Text="¿Qué deseas hacer hoy?"
+               TextColor="#D6D1FF"
+               HorizontalOptions="Center"/>
+
+        <!-- Card HU03 -->
+        <Frame BackgroundColor="White"
+               CornerRadius="20"
+               Padding="20">
+
+            <VerticalStackLayout Spacing="10">
+
+                <Label Text="Buscar productos"
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+
+                <Label Text="Encuentra precios en tiendas cercanas"
+                       FontSize="14"
+                       TextColor="Gray"/>
+
+                <Button Text="Ir"
+                        BackgroundColor="#4C3FC4"
+                        TextColor="White"
+                        Clicked="Buscar_Clicked"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Card HU04 -->
+        <Frame BackgroundColor="White"
+               CornerRadius="20"
+               Padding="20">
+
+            <VerticalStackLayout Spacing="10">
+
+                <Label Text="Escanear código"
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+
+                <Label Text="Escanea productos rápidamente"
+                       FontSize="14"
+                       TextColor="Gray"/>
+
+                <Button Text="Ir"
+                        BackgroundColor="#4C3FC4"
+                        TextColor="White"
+                        Clicked="Escanear_Clicked"/>
+            </VerticalStackLayout>
+
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>

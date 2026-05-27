@@ -31,7 +31,7 @@ public partial class VLogin : ContentPage
             // Redirección exitosa cambiando la página raíz al AppShell
             if (Application.Current?.Windows.Count > 0)
             {
-                Application.Current.Windows[0].Page = new AppShell();
+                Application.Current.Windows[0].Page = new NavigationPage(new VHome());
             }
         }
         else

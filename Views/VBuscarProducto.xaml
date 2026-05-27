@@ -1,0 +1,57 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ComparacionPrecios.Views.VBuscarProducto"
+             BackgroundColor="#2E237A"
+             Title="Buscar">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label Text="Buscar productos"
+               FontSize="26"
+               TextColor="White"
+               FontAttributes="Bold"/>
+
+        <Frame BackgroundColor="White"
+               CornerRadius="15"
+               Padding="10">
+
+            <SearchBar x:Name="searchBar"
+                       Placeholder="Nombre del producto"
+                       TextChanged="searchBar_TextChanged"/>
+        </Frame>
+
+        <CollectionView x:Name="listaProductos">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+                    <Frame BackgroundColor="White"
+                           CornerRadius="15"
+                           Margin="5"
+                           Padding="15">
+
+                        <VerticalStackLayout>
+
+                            <Label Text="{Binding Nombre}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"/>
+
+                            <Label Text="{Binding Marca}"
+                                   TextColor="Gray"/>
+
+                            <Label Text="{Binding Precio}"
+                                   TextColor="Green"
+                                   FontAttributes="Bold"/>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

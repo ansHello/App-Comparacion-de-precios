@@ -1,0 +1,39 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ComparacionPrecios.Views.VEscanearCodigo"
+             BackgroundColor="#2E237A"
+             Title="Escanear">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label Text="Escanear producto"
+               FontSize="26"
+               TextColor="White"
+               FontAttributes="Bold"/>
+
+        <Frame BackgroundColor="White"
+               CornerRadius="15"
+               Padding="10">
+
+            <Entry x:Name="codigoEntry"
+                   Placeholder="Código de barras"/>
+        </Frame>
+
+        <Button Text="Buscar"
+                BackgroundColor="#4C3FC4"
+                TextColor="White"
+                CornerRadius="15"
+                Clicked="Button_Clicked"/>
+
+        <Frame BackgroundColor="White"
+               CornerRadius="15"
+               Padding="15">
+
+            <Label x:Name="resultadoLabel"
+                   Text="Resultado aquí..."
+                   FontSize="16"/>
+        </Frame>
+
+    </VerticalStackLayout>
+
+</ContentPage>

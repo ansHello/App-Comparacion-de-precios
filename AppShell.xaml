@@ -3,12 +3,18 @@
     x:Class="ComparacionPrecios.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:ComparacionPrecios"
-    Title="ComparacionPrecios">
+    xmlns:views="clr-namespace:ComparacionPrecios.Views">
 
+    <!-- LOGIN -->
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate views:VLogin}"
+        Route="VLogin" />
+
+    <!-- HOME -->
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate views:VHome}"
+        Route="VHome" />
 
 </Shell>
