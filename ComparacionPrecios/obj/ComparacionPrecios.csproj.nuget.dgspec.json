@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DesarrolloMovil\\AppDesarrolloMovilFinal\\App-Comparacion-de-precios\\ComparacionPrecios\\ComparacionPrecios.csproj": {}
+    "C:\\Users\\USER\\Documents\\Deberes UISRAEL Desarrollo Movil 8vo\\desarrollo_proyecto_integrador\\ComparacionPrecios\\ComparacionPrecios.csproj": {}
   },
   "projects": {
-    "D:\\DesarrolloMovil\\AppDesarrolloMovilFinal\\App-Comparacion-de-precios\\ComparacionPrecios\\ComparacionPrecios.csproj": {
+    "C:\\Users\\USER\\Documents\\Deberes UISRAEL Desarrollo Movil 8vo\\desarrollo_proyecto_integrador\\ComparacionPrecios\\ComparacionPrecios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DesarrolloMovil\\AppDesarrolloMovilFinal\\App-Comparacion-de-precios\\ComparacionPrecios\\ComparacionPrecios.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\Deberes UISRAEL Desarrollo Movil 8vo\\desarrollo_proyecto_integrador\\ComparacionPrecios\\ComparacionPrecios.csproj",
         "projectName": "ComparacionPrecios",
-        "projectPath": "D:\\DesarrolloMovil\\AppDesarrolloMovilFinal\\App-Comparacion-de-precios\\ComparacionPrecios\\ComparacionPrecios.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\DesarrolloMovil\\AppDesarrolloMovilFinal\\App-Comparacion-de-precios\\ComparacionPrecios\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\Deberes UISRAEL Desarrollo Movil 8vo\\desarrollo_proyecto_integrador\\ComparacionPrecios\\ComparacionPrecios.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\Deberes UISRAEL Desarrollo Movil 8vo\\desarrollo_proyecto_integrador\\ComparacionPrecios\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0-android": {
@@ -109,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -426,7 +426,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -744,7 +744,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1058,7 +1058,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

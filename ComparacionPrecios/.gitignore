@@ -1,0 +1,45 @@
+﻿# Archivos de compilación
+bin/
+obj/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Paquetes NuGet
+packages/
+*.nupkg
+
+# Configuración local
+appsettings.Development.json
+
+# Archivos de publicación
+publish/
+
+# SQLite
+*.db
+*.sqlite
+
+# MAUI / Xamarin
+*.apk
+*.aab
+
+# Archivos generados
+Generated_Code/
+
+# Caché
+*.cache
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
